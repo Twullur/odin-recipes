@@ -1,11 +1,36 @@
 * {
-    color:blue;
-    background-color: lightgray;
+    color:brown;
+    background-color: transparent;
+    
 }
 
-h1 {
-    text-decoration: underline;
+.container {
+    width:600px;
+    height:100vh;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(231, 191, 142), brown);
+    padding: 30px;
 }
+
+
+.container li {
+    background-color: rgb(233, 225, 215);
+    margin-bottom:8px;
+    border-radius: 8px;
+
+}
+
+.container a {
+    text-decoration: none;
+}
+h1 {
+    padding:8px;
+}
+
+li {
+    padding:8px;
+}
+
 
 h2 {
     color:brown;
@@ -15,9 +40,6 @@ p {
     background-color: aquamarine;
 }
 
-li {
-    background-color: yellow;
-}
 
 li strong {
     background-color:aqua;
@@ -27,6 +49,3 @@ footer a {
     background-color:pink;
 }
 
-li a {
-    background-color:lightgreen;
-}
